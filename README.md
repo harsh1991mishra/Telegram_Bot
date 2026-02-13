@@ -1,15 +1,10 @@
-# YMM Financial Services (Bot & Website)
+# YMM Financial Services (Telegram Bot)
 
-This repository hosts both the **YMM Financial Services Website** and the **Telegram Bot** source code.
-
-## 🌐 Website
-A modern, responsive website for YMM Financial Services.
--   **File**: `index.html`
--   **Style**: `style.css`
--   **Live Demo**: Enable GitHub Pages in Settings -> Pages -> Source: `main` branch.
+This repository hosts the **Telegram Bot** source code for YMM Financial Services.
+For the website, please visit: [https://github.com/harsh1991mishra/ymm.github.io](https://github.com/harsh1991mishra/ymm.github.io)
 
 ## 🤖 Telegram Bot
-A Python-based Telegram bot that provides the same financial information.
+A Python-based Telegram bot that provides financial information.
 -   **File**: `bot.py`
 -   **Commands**:
     -   `/start`: Welcome message and menu.
