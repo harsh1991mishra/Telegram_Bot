@@ -58,9 +58,9 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     elif text == "Contact Us":
         response = (
             "<b>📞 Get in Touch!</b>\n\n"
-            "<b>Call/WhatsApp:</b> [+91 XXXXX XXXXX]\n"
-            "<b>Email:</b> contact@yourwebsite.com\n"
-            "<b>Visit Us:</b> [Your Office Address]"
+            "<b>Call/WhatsApp:</b> +91-8445744581\n"
+            "<b>Email:</b> harsh1991mishra@gmail.com\n"
+            "<b>Address:</b> Majestic Signia, A-27, Block –A, Industrial Area, Sector – 62, Noida."
         )
     else:
         response = "I didn't understand that command. Please use the menu buttons."
@@ -69,8 +69,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
 def main() -> None:
     """Start the bot."""
-    # REPLACE 'YOUR_TOKEN' WITH YOUR ACTUAL TELEGRAM BOT TOKEN
-    TOKEN = "YOUR_TOKEN_HERE" 
+    # Token provided by user
+    TOKEN = "8419054231:AAHQne4lvzzJMFQbEuLxosjKv6G5aspGYzA" 
     
     application = Application.builder().token(TOKEN).build()
 
